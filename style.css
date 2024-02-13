@@ -1,0 +1,424 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fondo{
+    text-align: center;
+    background-color: #c4c4c4;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    width: 70%;
+}
+
+.nav-lista{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav-lista li{
+    padding: 2% 1% 0% 1%;
+    font-size: 30px;
+}             
+
+.main{
+    padding: 4%;
+}
+
+.buttonn{
+    font-size: 27px;
+    width: 9%;
+    height: 30%;
+}
+
+.card-img-top{
+    height: 150%;
+    width: auto;
+}
+
+.section1{
+    display: flex;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 5%;
+}
+
+.wel{
+    font-size: 20px;
+    margin: 0% 0% 2% 0%;
+}
+
+.tituloo{
+    display: flex;
+    text-align: start;
+    font-size: 70px;
+    margin: 0% 0% 2% 0%;
+}
+
+.parrafo1{
+    display: flex;
+    text-align: start;
+    font-size: 20px;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px #000;
+}
+
+.titulo2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0% 0% 0% 2%;
+    font-size: 30px;
+}
+
+.features{
+    font-size: 17px;
+    color: red;
+}
+
+.section2{
+    margin: 5%;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height: 250px;
+    width: 400px;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: beige;
+    box-shadow: 5px 5px 2px #000;
+}
+
+.card-title{
+    font-size: 20px;
+    text-align: start;
+    margin: 5%;
+}
+
+.card-text{
+    font-size: 17px;
+    text-align: start;
+}
+
+.titulo3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 0% 0% 1%;
+    font-size: 30px;
+}
+
+.div4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card4{
+    height: 250px;
+    width: 600px;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: beige;
+    box-shadow: 5px 5px 2px #000;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.education{
+    align-items: flex-start;
+    margin: 2% 35% 0% 0%;
+}
+
+.job{
+    align-items: flex-start;
+    margin: 2% 31% 0% 0%;
+}
+
+.fecha{
+    font-size: 15px;
+    color: red;
+}
+
+.titleMyResumen{
+    font-size: 20px;
+}
+
+.titleMyResumen2{
+    font-size: 20px;
+}
+
+.fecha2{
+    font-size: 15px;
+    color: red;
+}
+
+
+.nav-lista2{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: #867c7c;
+    margin: 5% 0% 0% 0%;
+}
+
+.nav-lista2 li{
+    padding: 1% 1%;
+    font-size: 30px;
+    width: 250px;
+}         
+
+.div5{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 2%;
+}
+
+.card5{
+    height: 500px;
+    width: 400px;
+    margin: 2%;
+    padding: 1%;
+    background-color: beige;
+    box-shadow: 5px 5px 2px #000;
+    border-radius: 5px;
+}
+
+.form{
+    background-color: beige;
+    text-align: center;
+    padding: 10% 10%;
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 10%;
+    height: auto;
+}
+
+input{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+}
+
+textarea{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    height: 150px;
+}
+
+input::placeholder{
+    color: #888888;
+}
+
+textarea::placeholder{
+    color: #888888;
+    font-size: 15px;
+    align-items: center;
+}
+
+.submit{
+    background-color: #888888;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #000;
+    padding: 1%;
+}
+
+.footer_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.instagram{
+    height: 50px;
+    width: 50px;
+}
+
+.whatsapp{
+    height: 50px;
+    width: 50px;
+}
+
+.facebook{
+    height: 50px;
+    width: 50px;
+}
+
+.twitter{
+    height: 50px;
+    width: 50px;         
+}
+
+
+@media screen and (max-width:768px){
+    .encabezado{
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .nav-lista{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-lista li{
+        font-size: 40px;
+    }
+    .buttonn{
+        padding: 2% 1% 0% 1%;
+        width: 50%;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .wel{
+        font-size: 40px;
+    }
+    .parrafo1{
+        font-size: 40px;
+    }
+    .titulo2{
+        font-size: 40px;
+    }
+    .card{
+        width: 80%;
+    }
+    .nav-lista2{
+        width: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3%;
+    }
+    .nav-lista2 li{
+        width: 180px;
+    }
+    .div5{
+        width: 100%;
+    }
+    .features{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:468px){
+    .fondo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wel{
+        font-size: 20px;
+    }
+    .img{
+        width: 450px;
+    }
+    .titulo2{
+        font-size: 20px;
+    }
+    .titulo3{
+        font-size: 20px;
+    }
+    .tituloo{
+        font-size: 40px;
+    }
+    .features{
+        font-size: 20px;
+    }
+    .parrafo1{
+        font-size: 23px;
+    }
+    .card{
+        width: 100%;
+    }
+    .nav-lista2 li{
+        font-size: 15px;
+        width: 100px;
+    }
+    .div5{
+        flex-direction: column;
+    }
+    .form{
+        width: 300px;
+    }
+    .card5{
+        margin: 5%;
+        height: 300px;
+    }
+    .footer{
+        width: auto;
+        margin: 0px;
+    }
+    .instagram{
+        height: 30px;
+        width: 30px;
+    }
+    .whatsapp{
+        height: 30px;
+        width: 30px;
+    }
+    .facebook{
+        height: 30px;
+        width: 30px;
+    }
+    .twitter{
+        height: 30px;
+        width: 30px;         
+    }
+}
